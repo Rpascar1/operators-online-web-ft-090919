@@ -1,5 +1,5 @@
 def unsafe?(speed)
-  if #{speed} > 30 && #{speed} > 60
+  if "#{speed}" > 30 && "#{speed}" > 60
     p true
   else
     p false
