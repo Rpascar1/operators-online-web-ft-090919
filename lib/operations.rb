@@ -4,7 +4,7 @@ def unsafe?(speed)
   elsif
     p true
   else
-    return false
+    p false
   end
 end
 
